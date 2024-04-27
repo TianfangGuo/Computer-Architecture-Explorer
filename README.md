@@ -5,6 +5,7 @@ Please follow [this guide](https://www.gem5.org/documentation/general_docs/build
 
 For running your own experiments we provide a recommended directory structure below but really any structure works as long as you get the paths correct.
 
+```
 experiments/\
     |__ gem5/                                                                           # your gem5 installation\
     |\
@@ -41,3 +42,5 @@ experiments/\
     |       |__ spec17.iso \
     |\
     |__ run.sh                                                                          # shell script for running the sims\
+
+```
