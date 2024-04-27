@@ -1,6 +1,6 @@
 #!/bin/bash
-parallel /home/tguo/gem5/testEnv1/gem5/build/X86/gem5.opt --outdir results/m5out-{#} \
-sim_checkpoint_parallel.py --binary spec_resources/mcf_r_base.gem5-m64 --arguments="/home/tguo/gem5/testEnv1/gem5/configs/example/gem5_library/spec_resources/inp.in" \
+parallel (absolute path to gem5 installation)/gem5/build/X86/gem5.opt --outdir results/m5out-{#} \
+sim_checkpoint_parallel.py --binary spec_resources/mcf_r_base.gem5-m64 --arguments="(absolute path to spec_resources folder)/spec_resources/inp.in" \
 --simpoints spec_resources/mcf_r.simpts --weights spec_resources/mcf_r.weights \
 --checkpoint ckpt_gen/mcf_r_50mil/cpt.9585010381680/ {} \
 ::: --l1size ::: 8kB 32kB 128kB \
