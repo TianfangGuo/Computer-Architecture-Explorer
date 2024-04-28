@@ -3,7 +3,7 @@
 
 Please follow [this guide](https://www.gem5.org/documentation/general_docs/building) for installing and building gem5.
 
-For running your own experiments we provide a recommended directory structure below but really any structure works as long as you get the paths correct. (if you use a different structure you will need to modify *run.sh*)
+For running your own experiments we provide a recommended directory structure below but really any structure works as long as you get the paths correct.\ (if you use a different structure you will need to modify *run.sh*)
 
 ```
 experiments/
