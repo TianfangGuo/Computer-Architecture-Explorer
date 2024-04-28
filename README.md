@@ -1,9 +1,9 @@
 # Computer-Architecture-Explorer
-**NOTE: due to licensing issues we can not provide the SPEC2017.iso image for you, please contact your instructor to obtain this file, for the purpose of this guide we will assume you have this file and it is in the location specified below.**
+**NOTE: due to licensing issues we can not provide the SPEC2017.iso image for you, please contact your instructor to obtain this file. For the purpose of this guide we will assume you have this file and it is in the location specified below.**
 
 Please follow [this guide](https://www.gem5.org/documentation/general_docs/building) for installing and building gem5.
 
-For running your own experiments we provide a recommended directory structure below but really any structure works as long as you get the paths correct.
+For running your own experiments we provide a recommended directory structure below but really any structure works as long as you get the paths correct. (if you use a different structure you will need to modify *run.sh*)
 
 ```
 experiments/
