@@ -45,3 +45,8 @@ experiments/
     |__ run.sh                                                                          # shell script for running the sims
 
 ```
+
+### Step 1: generate simpoints for a benchmark
+Gem5 is very slow, in fact it is around 10,000 to 100,000 times slower than the hardware it simulates! So simulate even a single SPEC benchmark in gem5 will take more than a hundred days. Thus we must use a faster method called the [SimPoint Methodology](https://cseweb.ucsd.edu/~calder/simpoint/), which is a technique to profile a workload without needing to run it in its entirety. You may find the SimPoint toolkit, as well as instructions for how to use it [here](https://cseweb.ucsd.edu/~calder/simpoint/software-release.htm); we suggest using valgrind to generate basic block vectors to feed into SimPoint. 
+
+### Step 2: generate checkpoints in gem5
