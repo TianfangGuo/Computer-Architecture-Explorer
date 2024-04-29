@@ -1,5 +1,5 @@
 # Computer-Architecture-Explorer
-**NOTE: due to licensing issues we can not provide the SPEC2017.iso image for you, please contact your instructor to obtain this file. For the purpose of this guide we will assume you have this file and it is in the location specified below.**
+**NOTE: due to licensing issues we can not provide the SPEC2017.iso and inp.in for you, please contact your instructor to obtain these files. For the purpose of this guide we will assume you have these files and it is in the location specified below.**
 
 Please follow [this guide](https://www.gem5.org/documentation/general_docs/building) for installing and building gem5.
 
