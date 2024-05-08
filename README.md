@@ -5,6 +5,7 @@ Please follow [this guide](https://www.gem5.org/documentation/general_docs/build
 
 For running your own experiments we provide a recommended directory structure below but really any structure works as long as you get the paths correct.\
 (if you use a different structure you will need to modify *run.sh*)
+(also each benchmark has its own inp.in, possibly eith a different file name so please change accordingly)
 
 ```
 experiments/
